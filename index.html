@@ -9,17 +9,18 @@
     <body>
         <div id="weather-app">
             <h2 id="title">Weather</h2>
-            <form class="form">
-                <input type="text" id="inputLocation" placeholder="Enter city..." required><br>
-                <button id="button">Search</button>
-            </form>
             <div class="weatherDetails">
-                <img id="icon" alt="Weather Icon">
+                <img id="icon" alt="Current weather icon">
+                <div id="temperature"><strong>38°F</strong></div>
                 <div id="location">Seattle, WA</div>
-                <div id="temperature"><strong>38.F</strong></div><br>
                 <div id="weather">Cold</div>
-                <div id="hilow">H:50. | L:36.</div>
+                <div id="hilow">H:50°F  L:36°F</div>
+                <form class="form">
+                    <input type="text" id="inputLocation" placeholder="Enter city..." required>
+                    <button id="button" type="submit">Search</button>
+                </form>
             </div>
         </div>
+        <script src="./script.js"></script>
     </body>
-</html>
+</html> 

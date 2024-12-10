@@ -6,17 +6,25 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 85vh;
+    height: 100vh;
+    background-image: url("istockphoto-519587448-612x612.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: color;
 }
 
 #weather-app{
-    border: 1px solid rgb(rgb(199, 90, 90), green, blue);
-    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid none;
+    box-shadow: 3px 3px 5px black;
     padding: 25px;
     border-radius: 5%;
-    height: 475px;
+    height: 460px;
     width: 350px;
-    background-image: linear-gradient(to bottom right, lightblue, purple);
+    background-image: linear-gradient(to bottom right, rgb(48, 136, 165), rgb(177, 73, 177));
 }
 
 #title{
@@ -24,9 +32,33 @@ body{
     margin-top: 0px;
 }
 
+#icon{
+    width: 200px;
+    height: 200px;
+    margin: 55px;
+}
+
+#temperature{
+    font-size: 1.9rem;
+}
+
+#location{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+#weather{
+    padding-top: 40px;
+    font-size: 1.3rem;
+}
+
+#hilow{
+    word-spacing: 15px;
+}
+
 #inputLocation{
     width: 320px;
-    margin-top: 0px;
+    margin-top: 45px;
     margin-bottom: 15px;
     border: 1px solid rgba(255, 255, 255, 0.589);
     border-radius: 10px;
@@ -35,8 +67,6 @@ body{
 
 #button{
     width: 100px;
-    margin-top: 0px;
-    margin-bottom: 50px;
     border: 1px solid rgba(8, 8, 8, 0.075);
     border-radius: 10px;
     padding: 5px;
@@ -48,10 +78,8 @@ body{
     cursor: pointer;
 }
 
-#icon{
-    width: 200px;
-    height: 200px;
-    margin: 0 auto 30px;
-    
+#button:hover{
+    background-color: rgb(49, 20, 49);
 }
+
 
