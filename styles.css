@@ -33,9 +33,9 @@ body{
 }
 
 #icon{
-    width: 200px;
-    height: 200px;
-    margin: 55px;
+    width: 100px;
+    height: 100px;
+    margin-top: 3px;
 }
 
 #temperature{
@@ -56,9 +56,14 @@ body{
     word-spacing: 15px;
 }
 
+#line{
+    margin-top: 40px;
+    border: 1px solid rgba(204, 154, 204, 0.774);
+}
+
 #inputLocation{
     width: 320px;
-    margin-top: 45px;
+    margin-top: 20px;
     margin-bottom: 15px;
     border: 1px solid rgba(255, 255, 255, 0.589);
     border-radius: 10px;
