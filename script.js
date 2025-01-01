@@ -1,4 +1,4 @@
-const apiKey = 'API Key Here';
+const apiKey = 'eb2bc2aba831cd312a0e5217756479b8';
 
 //Loads Seattle Weather automatically
 let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=seattle&appid=${apiKey}`;
